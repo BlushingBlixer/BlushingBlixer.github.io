@@ -464,6 +464,10 @@ pre {
   .container {
     max-width: 1140px; } }
 
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1440px; } }
+    
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
   padding-right: 1.5rem;
@@ -487,6 +491,10 @@ pre {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px; } }
 
+@media (min-width: 1500px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1440px; } }
+    
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -4281,9 +4289,14 @@ a.close.disabled {
 .modal-xl {
     max-width: 800px; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1292px) {
+  .modal-lg,
+.modal-xl {
+    max-width: 1100px; } }
+
+@media (min-width: 1500px) {
   .modal-xl {
-    max-width: 1140px; } }
+    max-width: 1440px; } }
 
 .tooltip {
   position: absolute;
@@ -7297,7 +7310,6 @@ h3 {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden; }
   .portfolio .portfolio-item .portfolio-item-caption {
